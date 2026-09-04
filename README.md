@@ -1,7 +1,7 @@
-# Buscador de Livros
+# Biblioteca
 
 ## Autor
-Seu Nome Completo — Matrícula 0000000
+Bárbara Tavares De Araujo Madeiro
 
 ## Descrição
 Uma aplicação web simples para consultar o acervo global da Open Library. Permite buscar livros por título e visualizar capas, autor(es), ano de primeira publicação e editora.
@@ -16,9 +16,9 @@ Uma aplicação web simples para consultar o acervo global da Open Library. Perm
 - Mensagem amigável de erro caso o livro não seja encontrado ou haja falhas de conexão.
 
 ## Como executar localmente
-1. Clone o repositório: `git clone https://github.com/seu-usuario/bootcamp2-app.git`
+1. Clone o repositório: `git clone  https://github.com/madeirobarbara02-cloud/BootcampII---Projeto-I.git`
 2. Abra o arquivo `index.html` no seu navegador de preferência.
 
 ## Links
-- **Aplicação no ar (GitHub Pages):** https://seu-usuario.github.io/bootcamp2-app/
-- **Repositório:** https://github.com/seu-usuario/bootcamp2-app
+- **Aplicação no ar (GitHub Pages):** https://madeirobarbara02-cloud.github.io/BootcampII---Projeto-I/
+- **Repositório:**  https://github.com/madeirobarbara02-cloud/BootcampII---Projeto-I.git
