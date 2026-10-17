@@ -1,4 +1,4 @@
-Buscador de Livros & Estante Virtual 📚
+Biblioteca Vitual 📚
 
 Autora
 
