@@ -3,21 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Biblioteca 📚</title>
+  <title>Buscador de Livros & Estante 📚</title>
   <link rel="stylesheet" href="style.css">
+  <!-- Importa o Supabase via CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 </head>
 <body>
   <main class="container">
-    <h1>Biblioteca 📚</h1>
-    <p class="subtitulo">Consulte o acervo da Open Library</p>
+    <h1>Buscador de Livros 📚</h1>
+    <p class="subtitulo">Consulte a Open Library e guarde seus favoritos no Supabase</p>
     
     <div class="search-box">
       <input type="text" id="campo-busca" placeholder="Digite o nome de um livro (ex: Harry Potter)...">
       <button id="botao-buscar">Buscar</button>
     </div>
 
-    <div id="resultado" class="card"></div>
+    <!-- Resultado da Busca -->
+    <section id="resultado" class="card"></section>
+
+    <hr class="divisor">
+
+    <!-- Minha Estante (Favoritos no Banco) -->
+    <section class="estante-container">
+      <h2>⭐ Minha Estante de Favoritos</h2>
+      <div id="lista-favoritos" class="grid-favoritos"></div>
+    </section>
   </main>
+
   <script src="script.js"></script>
 </body>
 </html>
